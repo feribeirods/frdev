@@ -1,0 +1,227 @@
+@media screen and (min-width: 250px) and (max-width: 960px) {
+
+    #sobre {    
+        background-color: #A388FF;
+        width: 100%;
+        margin-top: -25px;
+        margin-inline: auto;
+        text-align: justify;
+        padding: 15px;
+        display: grid;    
+        grid-template-rows: 45px 1fr;
+        box-shadow: 5px 5px 5px rgb(184, 183, 183);
+        border-radius: 5px;
+    }
+
+    #texto-sobre {
+        text-align: justify;
+    }
+    
+    .sobre-coluna {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    #porfolio {    
+        background-color: #A388FF;
+        width: 100%;
+        margin: 50px auto;
+        text-align: justify;
+        padding: 15px;
+        display: grid;    
+        grid-template-rows: 45px 1fr;
+        box-shadow: 5px 5px 5px rgb(184, 183, 183);
+        border-radius: 5px;
+    }
+    
+    #portfolio-coluna {
+        margin-top: 70px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+    .m-t {
+        margin: 0;
+    }
+
+    .texto-contato ul li {
+        display: block;
+        text-align: left;
+    }
+
+    .texto-contato a {
+        line-height: 50px;
+    }
+
+    #contatos {
+        height: 610px;
+    }
+
+    #primeira-imagem {
+        margin-top: 60px;
+    }
+ 
+}
+
+
+
+
+@media screen and (min-width: 250px) and (max-width: 620px) {
+
+    
+
+    #porfolio {    
+        background-color: #A388FF;
+        width: 100%;
+        margin: 50px auto;
+        text-align: justify;
+        padding: 15px;
+        display: grid;    
+        grid-template-rows: 45px 1fr;
+        box-shadow: 5px 5px 5px rgb(184, 183, 183);
+        border-radius: 5px;
+    }
+    
+    #portfolio-coluna {
+        margin-top: 70px;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .m-t {
+        margin: 0;
+    }
+
+    #menu-topo {
+        margin-top: 50px;
+        margin-inline: auto;
+        background: rgba(138, 77, 177, .6);
+        width: 250px;
+    }
+
+    .menu-linha {
+        display: block;        
+        margin-top: 50px;
+    }
+
+    #imagem-sobre {
+        margin: 0;
+    }
+
+    #menu-topo {
+        display: none;
+    }
+
+    nav {
+        height: 250px;
+    }
+    
+    .menu-show {
+        display: flex;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 250px;
+        height: 100%;
+        background: #8A4DB1;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .menu-btn {
+        position: fixed;
+        bottom: 120px;
+        right: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        border: 3px solid #8A4DB1;
+        border-radius: 100px;
+        background-color: #FFF;
+        padding: 5px;
+    }
+    
+    .menu-btn_burger {
+        width: 40px;
+        height: 5px;
+        background: #8A4DB1;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        padding: 0;
+    }
+    
+    .menu-btn_burger::before,
+    .menu-btn_burger::after {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 5px;
+        background: #8A4DB1;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        padding: 0;
+    }
+    
+    .menu-btn_burger::before {
+        transform: translateY(-10px);
+    }
+    
+    .menu-btn_burger::after {
+        transform: translateY(10px);
+    }
+    
+    .menu-btn.open .menu-btn_burger {
+        transform: translateX(-50px);
+        background: transparent;
+    }
+    
+    .menu-btn.open .menu-btn_burger::before {
+        transform: rotate(45deg) translate(35px, -35px);
+    }
+    
+    .menu-btn.open .menu-btn_burger::after {
+        transform: rotate(-45deg) translate(35px, 35px);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

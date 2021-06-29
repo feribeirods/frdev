@@ -1,0 +1,302 @@
+
+/* FORMATAÇÕES PADRÃO */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: karla;
+    src: url(../fonts/karla.woff);
+}
+
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+nav {    
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: calc(100% -150px);
+}
+
+
+
+/* FORMATAÇÃO DO CABEÇALHO */
+
+#img-bg {
+    margin-top: 25px;
+    width: 100%;
+    max-width: 550px;
+}
+
+#logo-topo { 
+    text-align: center;
+}
+
+#menu-topo {
+    margin-top: 50px;
+    margin-inline: auto;
+    background: rgba(138, 77, 177, .6);
+    width: 580px;
+}
+
+.menu-linha {
+    display: inline;
+}
+
+.menu-linha a { 
+    font-family: karla;
+    font-weight: bold;
+    margin-inline: 25px;   
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFF;
+}
+
+.menu-linha a:hover { 
+    transition: 0.5s;
+    color: rgb(247, 239, 128);
+}
+
+ul {
+   list-style: none;
+}
+
+div {
+    padding: 10px;
+}
+
+
+
+/* FORMATAÇÃO DO CONTAINER SOBRE */
+
+#sobre {    
+    background-color: #A388FF;
+    width: 960px;
+    margin-top: -25px;
+    margin-inline: auto;
+    text-align: justify;
+    padding: 15px;
+    display: grid;    
+    grid-template-rows: 45px 1fr;
+    box-shadow: 5px 5px 5px rgb(184, 183, 183);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.sobre-coluna {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    font-family: karla;
+    font-weight: bold;
+    color: white;
+}
+
+#texto-sobre p {
+    margin-top: 15px;
+    font-family: karla;
+    color: white;
+    text-align: justify;
+}
+
+p span {
+    color: rgb(255, 238, 0);
+    font-weight: bold;
+}
+
+
+h3 {
+    margin-top: 15px;
+    font-family: karla;
+    font-weight: bold;
+    color: white;
+}
+
+h3 ~ p {
+    margin-top: 5px;
+    font-family: karla;
+    color: rgb(255, 238, 0);
+}
+
+#imagem-sobre {
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+#img-sobre-w {
+    width: 100%;
+    max-width: 350px;
+}
+
+
+
+/* FORMATAÇÃO DO CONTAINER PRTFÓLIO */
+
+#porfolio {    
+    background-color: #A388FF;
+    width: 960px;
+    margin: 50px auto;
+    text-align: justify;
+    padding: 15px;
+    display: grid;    
+    grid-template-rows: 45px 1fr;
+    box-shadow: 5px 5px 5px rgb(184, 183, 183);
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+#portfolio-coluna {
+    margin-top: 70px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#texto-portfolio {
+    margin-top: 15px;
+    font-family: karla;
+    color: white;
+}
+
+.link-git {
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    padding: 3px;
+    font-family: karla;
+    text-decoration: none;
+    color: #FFF;
+    margin-left: 20px;
+}
+
+.link-git:hover {
+    background: #FFF;
+    color: #8A4DB1;
+    transition: 0.5s;
+}
+
+.m-t{
+    margin-top: 70px;
+}
+
+
+
+/* FORMATAÇÃO DO CONTAINER CONTATOS */
+
+#contatos {
+    width: 100vw;
+    /*max-width: 2000px;*/
+    height: 350px;
+    background-color: #A388FF;
+    box-sizing: border-box;
+}
+
+.texto-contato {
+    font-family: karla;
+    text-align: center;
+    color: #FFF;
+}
+
+.texto-contato ul li {
+    display: inline;
+}
+
+.texto-contato i {
+    font-size: 45px;
+}
+
+.texto-contato a {
+    line-height: 150px;
+    font-size: 25px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #FFF;
+}
+
+.texto-contato a:hover {
+    color: rgb(247, 239, 128);
+}
+
+footer {
+    margin-top: 35px;
+}
+
+.texto-contato h1 {
+    color: #8A4DB1;
+}
+
+
+
+/* BOTÃO DE VOLTA AO TOPO */
+
+#back-to-top {
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    right: 35px;
+    cursor: pointer;
+    font-size: 35px;
+    border: 3px solid #8A4DB1;
+    padding: 5px;
+    border-radius: 100px;
+    background-color: #FFF;
+    color: #8A4DB1;
+  }
+
+  #back-to-top:hover {
+      background-color: violet;
+      color: #FFF;
+  }
+
+
+ /* HOVER DOS LINKS DE CONTATO */
+
+  .rotate {
+    display: inline-block;
+    padding: 1rem;
+    transition: all 2s;
+  }
+  
+  .rotate:hover {
+    cursor: pointer;
+    animation: rotate 2s forwards;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(360deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+
+  /* BOTÃO DE MENU RESPONSIVO */
+
+  .menu-btn {
+      display: none;
+  }
+
+  .menu-hide {
+    display: none;    
+ }
+
+
+
+
+
+
+  
