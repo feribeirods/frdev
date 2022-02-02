@@ -19,23 +19,10 @@
 
 <body>
 
-    <nav>
-        <div id="logo-topo"><img id="img-bg" src="img/Logo-teste.png"></div>
-
-
+    <nav>        
         <div class="menu-btn">
             <div class="menu-btn_burger"></div>
-        </div>
-
-
-        <div id="menu-topo">
-
-            <ul>
-                <li class="menu-linha"><a href="#sobre-link"><i class="fas fa-user-secret"></i> Sobre</a></li>
-                <li class="menu-linha"><a href="#pfl-link"><i class="fas fa-file-code"></i> Portfólio</a></li>
-                <li class="menu-linha"><a href="#contato-link"><i class="fas fa-mobile-alt"></i> Contato</a></li>
-            </ul>
-        </div>
+        </div>       
     </nav>
 
     <div class="menu-hide">
@@ -49,12 +36,45 @@
 
     </div>
 
+    <div id="menu-topo">
+
+        <div class="container-foto">
+            <img src="img/perfil-nova4.png" alt="" width="90%">
+        </div>
+
+        <div><h3>Luiz Fernando</h3></div>
+
+        <div>
+            <ul>
+                <li class="menu-linha"><a href="#sobre-link"><i class="fas fa-user-secret"></i> Sobre</a></li>
+                <li class="menu-linha"><a href="#pfl-link"><i class="fas fa-file-code"></i> Portfólio</a></li>
+                <li class="menu-linha"><a href="#contato-link"><i class="fas fa-download"></i> Currículo</a></li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;">
+            <p class="sociais">Follow Me</p>
+            <ul class="lista-sociais">
+                <li class="tooltip"><a href=""><i class="fab fa-github-alt"></i></a><span class="tooltiptext">Github!</span></li>
+                
+                <li class="tooltip"><a href=""><i class="fab fa-linkedin-in"></i></a><span class="tooltiptext">LinkedIn</span></li>
+                
+                <li class="tooltip"><a href=""><i class="fab fa-instagram"></i></a><span class="tooltiptext">Instagram</span></li>
+                
+                <li class="tooltip"><a href=""><i class="fab fa-whatsapp"></i></a><span class="tooltiptext">Whatsapp</span></li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <section>
+
     <div id="sobre"> <!--Início do Container Sobre-->
 
-        <div><h1 id="sobre-link text-gradient">Sobre:</h1></div>
+        <div><h1 id="sobre-link">Sobre:</h1></div>
 
         <div class="sobre-coluna">
-            <div id="texto-sobre">    <!--Início do texto Sobre-->                
+            <div id="texto-sobre" style="margin-top: 0 !important;">    <!--Início do texto Sobre-->                
 
                 <p>Depois de 3 anos formado em Direito resolvi mudar de profissão. No final de 2020 e começo de 2021 resolvi investir na área de Tecnologia, Comecei com um curso de Desenvolvimento Web aprendendo as principais tecnologias, <span style="color: #FC775B;">HTML</span>, <span style="color: #AAB6F6;">CSS</span>, <span>JavaScript</span> e <span style="color: #5E77FE;">PHP</span>, resolvi então ingressar na minha segunda graduação, foi quando iniciei o curso de Análise e Desenvolvimento de Sistemas. </p>
 
@@ -63,35 +83,43 @@
                 <p>Tenho desejo de crescer ainda mais profissionalmente e conhecer novas tecnologias, por isso busco uma empresa consolidada que possa me oferecer a oportunidade que preciso.</p>
 
             </div>   <!--Final do texto Sobre-->
+
+            <hr>
             
-            <div id="imagem-sobre"><img src="img/perfil-nova4.png" alt="Foto de Luiz Fernando Ribeiro" id="img-sobre-w" ></div>
+            <div style="display: flex;">
 
-            
+                <div style="width: 50%; text-align: center;"><img src="img/fundo-xp3.png" alt="" width="60%"></div>
 
-            <div><h1>Experiências Profissionais</h1>   <!--Início das Experiências-->
-                
-            <h3>GDPlace - Marketplace Solar</h3>
-            <p>Desenvolvedor Full Stack Jr. 2021 - Atualmente</p>
+                <div>
+                    <h1>Experiências Profissionais</h1>   <!--Início das Experiências-->           
+                    
+                    <h3>GDPlace - Marketplace Solar</h3>
+                    <p>Desenvolvedor Full Stack Jr. 2021 - Atualmente</p>
+        
+                    <br>
+                        
+                    <h3>WTK-Agro/Golabs</h3>
+                    <p>Desenvolvedor Front-end Jr. 2021 - 2021</p>
+        
+                    <h3>Liz Serviços Online (leismunicipais.com.br)</h3>
+                    <p>Auxiliar Administrativo 2017 - 2019</p>
+        
+                    <h3>Ministério Público do Estado de Santa Catarina - MPSC</h3>
+                    <p>Estagiário de Nível Superior 2016 - 2017</p>
+        
+                    <h3>Tribunal de Justiça do Estado de Santa Catarina - TJSC</h3>
+                    <p>Estagiário de Nível Superior 2013 - 2016</p>
 
-            <br>
-                
-            <h3>WTK-Agro/Golabs</h3>
-            <p>Desenvolvedor Front-end Jr. 2021 - 2021</p>
+                </div>   <!--Final das Experiências-->
 
-            <h3>Liz Serviços Online (leismunicipais.com.br)</h3>
-            <p>Auxiliar Administrativo 2017 - 2019</p>
+            </div>
 
-            <h3>Ministério Público do Estado de Santa Catarina - MPSC</h3>
-            <p>Estagiário de Nível Superior 2016 - 2017</p>
+            <hr>
 
-            <h3>Tribunal de Justiça do Estado de Santa Catarina - TJSC</h3>
-            <p>Estagiário de Nível Superior 2013 - 2016</p>           
+            <div style="display: flex;">   <!--Início da Formação-->               
 
-
-            </div>   <!--Final das Experiências-->
-
-            <div style="margin-left: 80px;">   <!--Início da Formação-->
-                <h1>Formações:</h1>
+                <div>
+                    <h1>Formações:</h1>
     
                 <h3>Análise e Desenvolvimento de Sistemas</h3>
                 <p>Universidade do Vale do Itajaí - 2021 - Presente</p>
@@ -106,7 +134,11 @@
     
                 <h3>Pós Graduação em Direito Público</h3>
                 <p>Escola Brasileira de Direito - 2020</p>
-            
+
+                </div>   <!--Final das Experiências-->
+
+                <div style="width: 50%; text-align: right;"><img src="img/fundo-forma.png" alt="" width="60%"></div>
+                
             </div>   <!--Final da Formação-->
 
         </div>       
@@ -116,93 +148,55 @@
     <div id="porfolio"> <!--Início do Container Portfólio-->
 
         <div><h1 id="pfl-link">Portfólio</h1>
-        <p id="texto-portfolio">Projetos desenvolvidos em estudos dos diferentes recursos de HTML, CSS e JavaScript. Certamente alguns projetos não estão perfeitamente escritos, mas representam o caminho percorrido até aqui, com seus erros e acertos.</p>
+        <p id="texto-portfolio">Projetos desenvolvidos em estudos dos diferentes recursos de HTML, CSS e JavaScript. sinta-se a vontade para acessá-los e também acessar o meu <a href="" class="link-git">Github</a> onde você poderá encontrar outros projetos desenvolvidos por mim utilizando outras linguagens como <span style="color: #CBD15B;">JavaScript</span> e <span style="color: #5E77FE;">PHP</span>.</p>
         </div>
 
         <div id="portfolio-coluna">
 
-            <div>
-                <img id="primeira-imagem" src="img/dental.png" alt="" width="280px">
+            <div class="card-portfolio" id="card-1">
                 <h3>Projeto Dental Clinic</h3>
-                <p>Projeto responsivo desenvolvido pensando em uma clínica odontológica utilizando HTML e CSS.</p>
-                <br>
-                <br>
-                <a href="https://github.com/feribeirods/dental-clinic" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/dental-clinic/" target="_blank" class="link-git">Acesse o Site</a>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
             </div>
 
-            <div>
-                <img src="img/museu-nacional.png" alt="" width="280px">
-                <h3>Projeto Museu Nacional</h3>
-                <p>Projeto desenvolvido como trabalho de um curso de HTML e CSS utilizando estas ferramentas.</p>
-                <br>
-                <br>
-                <a href="https://github.com/feribeirods/museu-nacional" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/museu-nacional/" target="_blank" class="link-git">Acesse o Site</a>
+            <div class="card-portfolio" id="card-2">
+                <h3>Projeto Notícias da Cidade</h3>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
             </div>
 
-            <div>
-                <img src="img/tinas.png" alt="" width="280px">
-                <h3>Projeto Tina's</h3>
-                <p>Projeto responsivo de uma hamburgueria fictícia com páginas funcionais, cardápio, franquias, delivery.</p>
-                <br>
-                <a href="https://github.com/feribeirods/tinas_classic_burger" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/tinas_classic_burger/" target="_blank" class="link-git">Acesse o Site</a>
-            </div>
-            
-            <div>
-                <img src="img/orcamento.jpg" alt="" width="280px">
-                <h3>Projeto APP Orçamento Pessoal</h3>
-                <p>App de orçamento pessoal desenvolvido em Bootstrap e JS utilizando o LocalStorage do navegador como armazenamento.</p>
-                <br>
-                <a href="https://github.com/feribeirods/orcamento_pessoal" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/orcamento_pessoal/" target="_blank" class="link-git">Acesse o Site</a>
+            <div class="card-portfolio" id="card-3">
+                <h3>Projeto Time Now</h3>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
             </div>
 
-            <div>
-                <img src="img/finans.png" alt="" width="280px">
-                <h3>Projeto Finans</h3>
-                <p>Projeto responsivo de um portal de investimentos e gerenciamento de finanças utilizando Bootstrap 4.</p>
-                <br>
-                <br>
-                <a href="https://github.com/feribeirods/finans.github.io" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/finans.github.io/" target="_blank" class="link-git">Acesse o Site</a>
+            <div class="card-portfolio" id="card-4">
+                <h3>Projeto Time Now (Preços)</h3>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
             </div>
 
-            <div>
-                <img src="img/urna.jpg" alt="" width="280px">
-                <h3>Projeto Urna Eletrônica</h3>
-                <p>Projeto de Urna Eletrônica criada utilizando arrays e objetos literais para simular uma votação para Prefeito e Vereador.</p>
-                <br>
-                <a href="https://github.com/feribeirods/urna_eletronica" target="_blank" class="link-git">Veja no Github</a>
-                <a href="https://feribeirods.github.io/urna_eletronica/" target="_blank" class="link-git">Acesse o Site</a>
+            <div class="card-portfolio" id="card-5">
+                <h3>Projeto Hosterr</h3>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
             </div>
 
-        </div>
-        
+            <div class="card-portfolio" id="card-6">
+                <h3>Projeto Meeet</h3>
+                <a class="link-portfolio" href="">Github</a>
+                <a class="link-portfolio" href="">Página Web</a>
+            </div>            
+
+        </div>       
 
     </div> <!--Final do Container Portfólio-->
+    </section>
 
     <span id="back-to-top"><i class="fas fa-arrow-up"></i></span>
     
-    <div id="contatos">
-        
-        <div><h1 id="contato-link">Contatos</h1></div>
-
-        <div class="texto-contato"><h1>Se interessou? Entre em contato e vamos conversar!</h1></div>
-
-        <div class="texto-contato">
-            <ul>
-                <li><a href="https://www.instagram.com/feribeirods/" target="_blank"> <i class="fab fa-instagram rotate"></i> Instagram</a></li> 
-                <li><a href="https://github.com/feribeirods" target="_blank"><i class="fab fa-github rotate"></i>  Github</a> </li>
-                <li><a href="https://wa.me/5547984633023" target="_blank"><i class="fab fa-whatsapp rotate"></i> Whatsapp</a></li>
-                <li><a href="https://www.linkedin.com/in/luiz-fernando-ribeiro-dos-santos-24601a1b7/" target="_blank"><i class="fab fa-linkedin rotate"></i> Linkedin</a></li>
-            </ul>
-        </div>
-
-        <footer class="texto-contato">Todos os Direitos Reservados &copy - Luiz Fernando Ribeiro dos Santos - 2021</footer>
-
-    </div>
+    
 
     <!--Scripts em JS-->
 
